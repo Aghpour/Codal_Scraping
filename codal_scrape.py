@@ -16,6 +16,7 @@ nest_asyncio.apply()
 start = time.time()
 
 main_dir = str(Path.home() / "Downloads")
+# put tickers here
 symbols = ['شستا', 'فولاد', 'فملی', 'وتجارت']
 pages_urls = []
 for symbol in symbols:
