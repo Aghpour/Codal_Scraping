@@ -1,2 +1,2 @@
 # Codal_Scraping
-download monthly reports from codal.ir
+download monthly excel reports from codal.ir
