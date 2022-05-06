@@ -71,7 +71,7 @@ async def main():
         for page in pages:
             itemss = json.loads(page)
             ticker = itemss['Letters'][0]['Symbol']
-            tickers.append(ticker)
+            #tickers.append(ticker)
             # find links in a page
             for i in range(len(itemss['Letters'])):
                 excel_link = itemss['Letters'][i]['ExcelUrl']
